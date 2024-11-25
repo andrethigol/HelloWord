@@ -18,6 +18,22 @@
         DateTime dia1 = new DateTime(2024, 11, 20, 08, 34, 20);
 
         Console.WriteLine(dia1);
+
+        var matematica = new OperacoesMatematicas();
+
+        var resultado = matematica.Adicionar(7, 3);
+
+        Console.WriteLine(resultado);
+
+        var carro = new Carro();
+
+        carro.Modelo = "Fusca";
+        carro.Cor = Cor.Azul;
+        carro.LancadoEm = new DateOnly(1949, 01, 01);
+
+        carro.NomeDoModelo();
+
+
     }
 
 }
