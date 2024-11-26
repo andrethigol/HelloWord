@@ -33,7 +33,16 @@
 
         carro.NomeDoModelo();
 
+        var lista = new List<string> { "Andre", "Thiago", "Lira", "Jaqueline" };
 
+        foreach (var nome in lista)
+        {
+            Console.WriteLine(nome);
+        }
+
+        for (int i = 0; i< lista.Count; i++)
+        {
+            Console.WriteLine(lista[i]);
+        }
     }
-
 }
